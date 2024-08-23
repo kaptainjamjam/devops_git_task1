@@ -1,0 +1,40 @@
+# .NET .gitignore
+*.dll
+*.exe
+*.pdb
+*.app
+*.lib
+*.dll
+*.so
+*.dylib
+*.log
+*.vs/
+.vscode/
+bin/
+obj/
+
+# Node.js .gitignore
+node_modules/
+npm-debug.log
+yarn-error.log
+.env
+
+# Laravel .gitignore
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs
+.env
+.env.backup
+.env.local
+.env.*.local
+Homestead.yaml
+Homestead.json
